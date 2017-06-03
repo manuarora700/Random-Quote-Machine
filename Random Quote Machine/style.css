@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  background: #aaa;
+  padding: 20px;
+  margin: 40px;
+  font-family: 'Raleway';
+  padding: 30px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+hr {
+  width: 50%;
+}
+
+.btn {
+  padding: 15px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #3D9970;
+  color: #fff;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  transition: 300ms;
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #3D9970;
+}
+
+fa {
+  font-size: 90px;
+}
+
+p {
+  color: #fff;
+  font-family: 'Open sans';
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quotes {
+  width: 33%;
+  margin: 0 auto;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+  color: #fff;
+}
+
+.quote {
+  font-size: 30px;
+}
+
+.author {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#newQuote {
+  position: relative;
+  top: 0px;
+  right: 100px;
+}
+
+#tweet {
+  position: relative;
+  top: 0px;
+  left: 100px;
+}

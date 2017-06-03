@@ -1,0 +1,94 @@
+//Sass Cheatsheet
+
+@import bourbon
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500)
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
+// Colors from: http://clrs.cc/ via @mrmrs_
+$aqua:  #7FDBFF
+$blue:  #0074D9
+$navy:  #001F3F
+$teal:  #39CCCC
+$green: #2ECC40
+$olive: #3D9970
+$lime:  #01FF70
+
+$yellow:  #FFDC00
+$orange:  #FF851B
+$red:     #FF4136
+$fuchsia: #F012BE
+$purple:  #B10DC9
+$maroon:  #85144B
+
+$white:  #fff
+$silver: #ddd
+$gray:   #aaa
+$black:  #111
+
+//Sass cheatsheet over.
+
+body
+    background: $gray
+    padding: 20px
+    margin: 40px
+    font-family: 'Raleway'
+    padding: 30px
+    
+h1
+    color: $white
+    //font-family: 'Raleway'
+    font-size: 50px
+
+hr
+    width: 50%
+
+.btn
+    padding: 15px
+    line-height: 1.2em
+    font-weight: bold
+    
+    &:hover
+        background: $olive
+        color: $white
+        +transition(300ms)
+        box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px $olive
+    
+fa
+    font-size: 90px
+p
+    color: $white
+    font-family: 'Open sans'
+    font-style: italic
+    font-size: 20px
+    
+.quotes
+    //background-color: $gray
+    width: 33%
+    margin: 0 auto
+    border-color: $white
+    border-style: solid
+    border-radius: 5px
+    margin-top: 20px
+    padding: 20px
+    height: auto
+    color: $white
+   
+    
+.quote
+    font-size: 30px
+    
+.author
+    font-size: 20px
+    font-style: italic
+
+#newQuote
+    position: relative
+    top: 0px
+    right: 100px
+    
+#tweet
+    position: relative
+    top: 0px
+    left: 100px
+    
